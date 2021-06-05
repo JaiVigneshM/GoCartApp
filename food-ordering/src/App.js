@@ -2,8 +2,10 @@ import './App.css';
 import Header from './components/header';
 
 function App() {
+
+  const headerBackground = "yellow";
   return (
-    <Header></Header>
+    <Header color={headerBackground}></Header>
   );
 }
 
