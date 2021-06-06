@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function Header({ color }) {
+export default function Header({ color, links }) {
 
-    // console.log(props);
+    console.log(links);
     return (<header style={{ backgroundColor: color }}>
         <nav>
             <ul>

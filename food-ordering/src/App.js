@@ -4,8 +4,18 @@ import Header from './components/header';
 function App() {
 
   const headerBackground = "yellow";
+  const navigationLinks = [
+    {
+      name: "Home",
+      path: "/"
+    },
+    {
+      name: "Orders",
+      path: "/orders"
+    }
+  ]
   return (
-    <Header color={headerBackground}></Header>
+    <Header color={headerBackground} links={navigationLinks}></Header>
   );
 }
 
